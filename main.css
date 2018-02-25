@@ -1,0 +1,52 @@
+/* {
+  border: 1px solid grey;
+    } */
+    
+body {
+    box-sizing: border-box;
+    background: #eee; /* url(body.gif) no-repeat 50% 100%; */
+    color: #666;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 1.3em;
+}
+
+.container {
+    margin: 0 20%;
+    background-color: white;
+}
+
+header, footer {
+  text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.left-col {
+    flex: 2;
+}
+
+.right-col {
+    flex: 1;
+}
+
+.cross-hatching {
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,.1) 2px,
+        rgba(0,0,0,.1) 4px
+    ) 
+}
+
+.orbitron-font {
+    font-family: 'Orbitron', sans-serif;
+    display: inline; /* puts number on left next to h4--both of which are this font */
+}
+
+.number-box {
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #666;
+}
