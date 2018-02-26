@@ -1,0 +1,200 @@
+/* {
+  border: 1px solid grey;
+    } */
+    
+body {
+    box-sizing: border-box;
+    background: #eee; /* url(body.gif) no-repeat 50% 100%; */
+    color: #666;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 1.3em;
+}
+
+.container {
+    padding-top: 1px;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+header, footer {
+  text-align: center;
+  border: 5px solid rgb(214, 214, 214);
+  margin: 10px;
+}
+
+header {
+    border: 2px solid rgb(214, 214, 214);
+    text-shadow: 2px 2px rgb(214, 214, 214);
+    box-shadow: 0px 0px 2px 2px rgb(214, 214, 214);
+    padding-top: 85px;
+    padding-bottom: 55px;
+}
+
+.header-image {
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    display: block;
+    padding: 25px 25px 0 25px;
+    border: 2px solid rgb(214, 214, 214);
+    text-shadow: 2px 2px rgb(214, 214, 214);
+    box-shadow: 0px 0px 2px 2px rgb(214, 214, 214);
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+/* .header-heading {
+    margin-top: 30px;
+} not applying --------------------*/
+
+.block-p {
+    clear: both;
+    margin-top: 0;
+    font-size: .8em;
+}
+
+.main {
+    display: flex;
+}
+
+.left-col {
+    flex: 2;
+    letter-spacing: .10em;
+    border: 5px solid rgb(214, 214, 214);
+    padding: 40px 10px 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.left-article {
+    margin-bottom: 50px;
+}
+
+.right-col {
+    flex: 1;
+    /* justify-content: flex-end; doesn't apply */ 
+}
+
+.top-right-article {
+    border: 5px solid rgb(214, 214, 214);  
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-right-box {
+    border: 5px solid rgb(214, 214, 214);
+    padding: 10px;
+    margin-right: 10px;
+    /* justify-content: flex-end; /* not putting it all way to end */
+}
+
+/* .design-name, .designer-name {
+    text-transform: lowercase;
+} this didn't apply -------------------- */
+
+ul {
+    list-style-type: none;
+}
+
+.bullet-dogeared {
+    background-image: url(http://www.csszengarden.com/143/designs.gif);
+}
+
+.bullet-folder {
+    background-image: url(http://www.csszengarden.com/143/archives.gif);
+}
+
+.bullet-full-page {
+    background-image: url(http://www.csszengarden.com/143/resources.gif);
+
+}
+
+li {
+    padding: 3px 0 3px 20px;
+    border-bottom: 2px solid #ddd;
+    background-repeat: no-repeat;
+    background-position: 6px 5px;
+    display: list-item;
+    list-style: none;
+    text-transform: lowercase;
+}
+
+.top-border {
+    border-top: 2px solid #ddd;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #888;
+}
+
+.no-underline:hover {
+    color: black;
+}
+
+.p-by {
+    margin: 4px 0;
+}
+
+/* li::before {
+    content: '';
+    position: absolute;
+    width: 2em;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(http://www.csszengarden.com/143/designs.gif);
+    background-size: 1em 1em;
+    background-repeat: no-repeat;
+    background-position: left;
+  } */
+
+/* .left-article {
+    padding: 15px;
+} */
+
+.cross-hatching {
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,.1) 2px,
+        rgba(0,0,0,.1) 4px
+    ) 
+}
+
+.orbitron-font {
+    font-family: 'Orbitron', sans-serif;
+    display: inline; /* puts number on left next to h3--both of which are this font */
+}
+
+.orbitron-font-main {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.bold-heading {
+    font-weight: 900;
+}
+
+.number-box {
+    padding: 15px 15px 10px 15px;
+    border: 2px solid rgb(214, 214, 214);
+    text-shadow: 2px 2px rgb(214, 214, 214);
+    box-shadow: 0px 0px 2px 2px rgb(214, 214, 214);
+}
+
+footer a {
+    color: #666;
+    font-weight: 900;
+}
+
+.footer {
+    padding: 8px 0;
+}
+
