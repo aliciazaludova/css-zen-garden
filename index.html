@@ -6,15 +6,16 @@
     <title>CSS Zen Garden #143</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,900" rel="stylesheet">
 </head>
 <body>
   <div class="container">
 
     <header class="cross-hatching">
-        <img src="images/roboguy.jpg" alt="robot silhouette" height="200" width="200">
-        <h1>CSS Zen Garden</h1>
-          <p>THE BEAUTY OF CSS DESIGN</p>
+        <div class="header-image"><img src="images/roboguy.jpg" alt="robot silhouette" height="200" width="200">
+        </div> <!--.header-image-->
+        <h1 class="orbitron-font bold-heading">CSS ZEN GARDEN</h1>
+        <p class="block">THE BEAUTY OF CSS DESIGN</p>
     </header>
 
     <section class="main">
@@ -68,17 +69,17 @@
     
         <div class="right-col">
             <article class="right-article cross-hatching">
-                <h4>SUMMARY</h4>
+                <h4 class="orbitron-font bold-heading">SUMMARY</h4>
                     <p>A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.</p>
                     <p>Download the example <a href="">html file</a> and <a href="">css file</a></p>
             </article>
             <article class="right-article">
-                <h4>DESIGNS</h4>
+                <h4 class="orbitron-font bold-heading">DESIGNS</h4>
                     <nav>
                         <ul>
                             <li>
-                            <a href="" class="design-name">Mid Century Modern</a> by
-                            <a href="" class="designer-name">Andrew Lohman</a>
+                                <a href="" class="design-name">Mid Century Modern</a> by
+                                <a href="" class="designer-name">Andrew Lohman</a>
                             </li>
                             <li>
                                 <a href="" class="design-name">Garments</a> by
@@ -112,7 +113,7 @@
                     </nav>
                 </article>
                 <article class="right-article">
-                    <h4>ARCHIVES</h4>
+                    <h4 class="orbitron-font bold-heading">ARCHIVES</h4>
                         <nav>
                             <ul>
                                 <li>
@@ -126,22 +127,22 @@
                 </article>
             
                 <article class="right-article">
-                    <h4>Resources</h4>
+                    <h4 class="orbitron-font bold-heading">RESOURCES</h4>
                         <nav>
                             <ul>
                                 <li>
                                     <a href="">View This Design's CSS</a>
-                                    </li>
-                                    <li>
+                                </li>
+                                <li>
                                     <a href="">CSS Resources</a>
-                                    </li>
-                                    <li>
+                                </li>
+                                <li>
                                     <a href="">FAQ</a>
-                                    </li>
-                                    <li>
+                                </li>
+                                <li>
                                     <a href="">Submit a Design</a>
-                                    </li>
-                                    <li>
+                                </li>
+                                <li>
                                     <a href="">Translations</a>
                                 </li>
                             </ul>
@@ -150,7 +151,7 @@
         </div> <!--/.right-col-->
     </section> <!--/.main-->
 
-    <footer>
+    <footer class="cross-hatching">
         <nav>
             <a href="">HTML</a>
             <a href="">CSS</a>
