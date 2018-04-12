@@ -1,6 +1,6 @@
 # CSS Zen Garden
 ## Description
-This project's objective was to create a static html page that puts CSS skills to work. The goal was to create as much of a likeness as possible (within time constraints) to a page of our selection on the site [CSS Zen Garden](http://www.csszengarden.com/). [Here is the design I chose to replicate.](http://www.csszengarden.com/143/). This was our first assignment in my cohort at NSS.
+This project's objective was to create a static HTML page that puts CSS skills to work. The goal was to create as much of a likeness as possible (within time constraints) to a page of our selection on the site [CSS Zen Garden](http://www.csszengarden.com/). [Here is the design I chose to replicate.](http://www.csszengarden.com/143/) This was our first assignment in my cohort at NSS.
 
 [View assignment here](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/CSS_zen_garden_challenge.md)
 
